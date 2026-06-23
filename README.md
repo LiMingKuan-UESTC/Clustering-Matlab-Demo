@@ -19,7 +19,7 @@
 ## 效果展示
 
 <p align="center">
-  <img src="assets/display.gif" width="850" alt="Clustering MATLAB Demo">
+  <img src="assets/display.gif" width="750" alt="Clustering MATLAB Demo">
 </p>
 
 ---
