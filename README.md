@@ -1,12 +1,17 @@
-# Clustering-Matlab-Demo
+<h1 align="center">Clustering-Matlab-Demo</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/github/languages/top/LiMingKuan-UESTC/Clustering-Matlab-Demo?label=MATLAB" />
-  <img src="https://img.shields.io/github/license/LiMingKuan-UESTC/Clustering-Matlab-Demo" />
-  <img src="https://img.shields.io/github/stars/LiMingKuan-UESTC/Clustering-Matlab-Demo?style=social" />
+  <b>一个用于演示分级聚类 / 层次聚类过程的 MATLAB 可交互 Demo</b>
 </p>
 
-一个用于演示**分级聚类 / 层次聚类**过程的 MATLAB 可交互 Demo。
+<p align="center">
+  <img src="https://img.shields.io/github/languages/top/LiMingKuan-UESTC/Clustering-Matlab-Demo?style=flat-square&label=Language" />
+  <img src="https://img.shields.io/github/license/LiMingKuan-UESTC/Clustering-Matlab-Demo?style=flat-square&label=License" />
+  <img src="https://img.shields.io/github/repo-size/LiMingKuan-UESTC/Clustering-Matlab-Demo?style=flat-square&label=Repo%20Size" />
+  <a href="https://github.com/LiMingKuan-UESTC/Clustering-Matlab-Demo/stargazers">
+    <img src="https://img.shields.io/github/stars/LiMingKuan-UESTC/Clustering-Matlab-Demo?style=flat-square&logo=github&label=Stars" />
+  </a>
+</p>
 
 本项目主要面向算法入门、课堂展示和课程实验场景，希望用更直观的方式展示聚类合并过程，而不是一开始就堆叠复杂公式和理论说明。
 
@@ -17,8 +22,7 @@
 > GIF 演示待补充。
 > 后续会在这里放置交互运行效果，包括逐步合并、自动播放和树状图展示。
 
-<!-- 
-示例：
+<!--
 <p align="center">
   <img src="assets/demo.gif" width="850" alt="Clustering MATLAB Demo" />
 </p>
@@ -41,7 +45,7 @@
   当前核心功能集中在 `demo.m` 中，下载后可以直接运行，便于查看、修改和二次开发。
 
 * **不依赖 Statistics Toolbox**
-  single-linkage 聚类过程和树状图绘制均为手写实现，更适合学习算法流程和代码逻辑。
+  聚类过程和树状图绘制均为手写实现，更适合学习算法流程和代码逻辑。
 
 * **中文界面与中文注释**
   对中文学习者更友好，适合课程作业、实验报告和课堂演示。
@@ -109,12 +113,12 @@ demo
 
 * [ ] 补充运行截图或 GIF 演示，让 README 中可以直接看到运行效果
 * [ ] 整理 README 中的文件结构说明
-* [ ] 增加更清晰的运行环境说明，例如 MATLAB 版本和运行方式
-* [ ] 增加示例数据说明，方便用户理解当前样本点的分布
+* [ ] 增加运行环境说明，例如 MATLAB 版本和基本运行方式
+* [ ] 补充当前示例数据说明，方便理解样本点分布
 * [ ] 支持更方便地修改目标聚类数 `targetK`
 * [ ] 支持用户自定义输入二维样本点
 * [ ] 考虑增加不同 linkage 准则的切换，例如 single-linkage、complete-linkage、average-linkage
-* [ ] 在功能稳定后发布第一个版本标签
+* [ ] 在功能稳定后发布第一个版本标签，例如 `v0.1.0`
 
 ---
 
