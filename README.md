@@ -5,8 +5,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/languages/top/LiMingKuan-UESTC/Clustering-Matlab-Demo?style=flat-square&label=Language" />
-  <img src="https://img.shields.io/github/license/LiMingKuan-UESTC/Clustering-Matlab-Demo?style=flat-square&label=License" />
+  <img alt="Language" src="https://img.shields.io/badge/Language-MATLAB-orange?style=flat-square">
   <img src="https://img.shields.io/github/repo-size/LiMingKuan-UESTC/Clustering-Matlab-Demo?style=flat-square&label=Repo%20Size" />
   <a href="https://github.com/LiMingKuan-UESTC/Clustering-Matlab-Demo/stargazers">
     <img src="https://img.shields.io/github/stars/LiMingKuan-UESTC/Clustering-Matlab-Demo?style=flat-square&logo=github&label=Stars" />
@@ -19,14 +18,9 @@
 
 ## 效果展示
 
-> GIF 演示待补充。
-> 后续会在这里放置交互运行效果，包括逐步合并、自动播放和树状图展示。
-
-<!--
 <p align="center">
-  <img src="assets/demo.gif" width="850" alt="Clustering MATLAB Demo" />
+  <img src="assets/display.gif" width="850" alt="Clustering MATLAB Demo">
 </p>
--->
 
 ---
 
@@ -103,22 +97,26 @@ demo
 
 ---
 
-## 文件结构
+## 项目结构
 
-> 待补充。
+```text
+Clustering-Matlab-Demo
+├── assets/
+│   └── display.gif     # 项目运行效果演示
+├── demo.m              # 主程序：交互式层次聚类演示
+├── README.md           # 项目说明文档
+└── LICENSE             # 开源协议
+```
 
 ---
 
 ## 后续计划
 
-* [ ] 补充运行截图或 GIF 演示，让 README 中可以直接看到运行效果
-* [ ] 整理 README 中的文件结构说明
-* [ ] 增加运行环境说明，例如 MATLAB 版本和基本运行方式
 * [ ] 补充当前示例数据说明，方便理解样本点分布
 * [ ] 支持更方便地修改目标聚类数 `targetK`
 * [ ] 支持用户自定义输入二维样本点
-* [ ] 考虑增加不同 linkage 准则的切换，例如 single-linkage、complete-linkage、average-linkage
 * [ ] 在功能稳定后发布第一个版本标签，例如 `v0.1.0`
+* [ ] 考虑增加不同 linkage 准则的切换，例如 single-linkage、complete-linkage、average-linkage
 
 ---
 
