@@ -3,7 +3,6 @@
 <p align="center">
   <img src="https://img.shields.io/github/languages/top/LiMingKuan-UESTC/Clustering-Matlab-Demo?label=MATLAB" />
   <img src="https://img.shields.io/github/license/LiMingKuan-UESTC/Clustering-Matlab-Demo" />
-  <img src="https://img.shields.io/github/repo-size/LiMingKuan-UESTC/Clustering-Matlab-Demo" />
   <img src="https://img.shields.io/github/stars/LiMingKuan-UESTC/Clustering-Matlab-Demo?style=social" />
 </p>
 
@@ -115,7 +114,7 @@ demo
 * [ ] 支持更方便地修改目标聚类数 `targetK`
 * [ ] 支持用户自定义输入二维样本点
 * [ ] 考虑增加不同 linkage 准则的切换，例如 single-linkage、complete-linkage、average-linkage
-* [ ] 在功能稳定后发布第一个版本标签，例如 `v0.1.0`
+* [ ] 在功能稳定后发布第一个版本标签
 
 ---
 
