@@ -114,3 +114,8 @@ Clustering-Matlab-Demo
 本项目基于 Apache-2.0 License 开源。
 
 🤝 欢迎 Star ⭐ 和 Fork 🧑‍💻！
+
+## 相关项目
+
+* [K-Means Clustering Demo](https://github.com/LiMingKuan-UESTC/K-Means-Clustering-Demo)
+* [Density Peaks Clustering Demo](https://github.com/LiMingKuan-UESTC/Density-Peaks-Clustering-Demo)
